@@ -1,1 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JScripter-Lua/SomeThingIDK/refs/heads/main/b0a65e224e8b1f34.lua.txt"))()
+-- this file own by dsc-joinme.lovable.app
+-- Arsenal v1.01
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JScripter-Lua/SomeThingIDK/refs/heads/main/7afdf67a8b138f4e.lua.txt"))()
