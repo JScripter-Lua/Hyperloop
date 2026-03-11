@@ -1,4 +1,4 @@
 -- this file own by dsc-joinme.lovable.app
--- Arsenal v1.01
+-- Arsenal v1.02
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JScripter-Lua/SomeThingIDK/refs/heads/main/921aa3b1f48e5f3f.lua.txt"))()
