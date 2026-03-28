@@ -1,7 +1,5 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JScripter-Lua/ObsidianModed/refs/heads/main/Library_Modified.lua.txt"))()
 
---[[ Original Anti-Idle & Services ]]--
-
 local VirtualUser = game:GetService("VirtualUser")
 
 if game:GetService("Players").LocalPlayer then
@@ -11,8 +9,6 @@ if game:GetService("Players").LocalPlayer then
     end)
 end
 
---[[ Services ]]--
-
 local Players        = game:GetService("Players")
 local RunService     = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
@@ -20,17 +16,11 @@ local TweenService   = game:GetService("TweenService")
 local LocalPlayer    = Players.LocalPlayer
 local PlayerGui      = LocalPlayer:WaitForChild("PlayerGui")
 
--- ════════════════════════════════════════════════════════════════
--- LIBRARY INIT
--- ════════════════════════════════════════════════════════════════
 local Library = getgenv().Library
 assert(Library, "[Hyperloop] Load the Library first!")
 
 local C = getgenv().Color
 
--- ════════════════════════════════════════════════════════════════
--- STYLE & THEME
--- ════════════════════════════════════════════════════════════════
 Library:SetStyle("Round")
 Library:SetTheme("Purple")
 
