@@ -1,1 +1,3 @@
+warn("v1 loaded")
 
+loadstring(game:HttpGet'https://api.rubis.app/v2/scrap/49XpAPrZLFeHzdvb/raw')()
